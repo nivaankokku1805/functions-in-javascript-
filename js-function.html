@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions in javascript</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button type="button" onclick="myAdd(9)">perform to add</button>
+    <button type="button" onclick="myMul()">perform to multiply</button>
+<script>
+    var m1=89
+    function myAdd(a,b){
+if (b===undefined){
+
+b = 5
+}
+document.write(a+b)
+}
+function myMul(){
+    var m2=5
+    document.getElementById('demo').innerHTML=m1*m2
+}
+   //activity3m 
+   var subtraction= function(s1,s2) {
+    return s1-s2
+   }
+   document.write(subtraction (48,22))
+
+
+
+
+
+</script>
+
+</body>
+</html>
